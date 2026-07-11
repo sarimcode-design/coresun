@@ -169,5 +169,110 @@
     gap:15px;
 }
 
+@media (max-width:768px){
+
+    header{
+        flex-direction:column;
+        gap:20px;
+        padding:25px;
+        text-align:center;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .logo{
+        margin-left:0;
+    }
+
+    .header-cta{
+        width:100%;
+        max-width:220px;
+        text-align:center;
+    }
+
+    .hero{
+        flex-direction:column-reverse;
+        text-align:center;
+        padding:50px 25px;
+        min-height:auto;
+    }
+
+    .hero-text{
+        padding:0;
+    }
+
+    .hero-text h1{
+        font-size:2.3rem;
+    }
+
+    .hero-text p{
+        font-size:1rem;
+    }
+
+    .hero-btn{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    .hero-img img{
+        max-width:350px;
+    }
+
+    .choose-container{
+        grid-template-columns:1fr;
+    }
+
+    .choose-text h2{
+        font-size:2rem;
+    }
+
+    .choose-card{
+        padding:30px;
+}
+    .choose-container{
+        grid-template-columns:1fr;
+    }
+
+    .choose-text h2{
+        font-size:2rem;
+    }
+    .about-container{
+    flex-direction:column;
+    text-align:center;
+    gap:40px;
+}
+
+.about-img img{
+    max-width:100%;
+}
+
+.paragraph{
+    max-width:100%;
+}
+
+.about-features{
+    grid-template-columns:1fr;
+}
+
+.paragraph h2{
+    font-size:2rem;
+}
+
+.paragraph span{
+    margin-bottom:15px;
+}
+.trainer-container{
+        grid-template-columns:1fr;
+}
+
+.testimonial-container{
+    grid-template-columns:1fr;
+}
+
+}
 
 
